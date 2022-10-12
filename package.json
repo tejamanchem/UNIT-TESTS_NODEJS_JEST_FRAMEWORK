@@ -1,0 +1,23 @@
+{
+  "name": "unit-tests_nodejs_jest_framework",
+  "version": "1.0.0",
+  "description": "Unit Tests In NodeJS With JEST Test Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./testFolder/**.test.js",
+    "start":"jest --coverage ../testFolder/**.tsest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejamanchem/UNIT-TESTS_NODEJS_JEST_FRAMEWORK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejamanchem/UNIT-TESTS_NODEJS_JEST_FRAMEWORK/issues"
+  },
+  "homepage": "https://github.com/tejamanchem/UNIT-TESTS_NODEJS_JEST_FRAMEWORK#readme",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}
